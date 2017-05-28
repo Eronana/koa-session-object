@@ -5,7 +5,7 @@ use object as session for koa
 
 ```javascript
 const session = require('koa-session-object');
-const config =  {
+const config = {
   key: 'koa:sess', /** (string) cookie key (default is koa:sess) */
   maxAge: 86400000, /** (number) maxAge in ms (default is 1 days) */
   overwrite: true, /** (boolean) can overwrite or not (default true) */
